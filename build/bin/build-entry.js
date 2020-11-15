@@ -111,6 +111,7 @@ ComponentNames.forEach((name) => {
       'input',
       'alert',
       'carousel',
+      'carousel-item',
       'breadcrumb',
       'breadcrumb-item',
       'dialog',
@@ -147,7 +148,9 @@ ComponentNames.forEach((name) => {
       'tab-pane',
       'color-picker',
       'cascader',
-      'cascader-panel'
+      'cascader-panel',
+      'table',
+      'table-column'
     ].indexOf(name) > -1
   ) {
     // 白名单 挨个替换

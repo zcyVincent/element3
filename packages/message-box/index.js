@@ -1,2 +1,8 @@
 import MessageBox from './src/MessageBox.js'
-export default MessageBox
+import MessageBoxComponent from './src/MessageBox.vue'
+
+export function useMsgbox() {
+  return MessageBox
+}
+
+export default MessageBoxComponent
